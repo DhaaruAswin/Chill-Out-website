@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chill Out Restaurant</title>
+        <link rel="stylesheet" href="style.css"/>
+        <style>
+            #bT{
+                color:red;
+            }
+            #headerMainDiv{
+                background-image:url("images/bT.jpg");
+                height: 400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+            body{
+                text-align:center;
+            }
+            button {
+                border:4px solid grey;
+                font-size:20px;
+                transition-property: all;
+                transition-duration: 1s;
+            }
+            button:hover {
+                background-color:black;
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div id="headerMainDiv">
+                <img id="logoimg" src="images/Clogo.png" width=100 height=100/>
+                <nav class="headerNavBar">
+                    <a href="index.html" class="navItems">HOME</a>
+                    <a href="menu.html" class="navItems">MENU</a>
+                    <a href="gallery.html" class="navItems">GALLERY</a>
+                    <a href="liveCounters.html" class="navItems">LIVE COUNTERS</a>
+                    <a href="franchise.html" class="navItems">FRANCHISE</a>
+                    <a href="bookTable.html" class="navItems" id="bT">BOOK A TABLE</a>
+                </nav>
+                <p id="text" style="position:relative;bottom:50px">Keep calm and Chill Out</p>
+            </div>
+        </header>
+        <main>
+            <section>
+                <p id="text">Your booking is done...!!</p>
+            </section>
+        </main>
+    </body>
+</html>

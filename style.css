@@ -1,0 +1,52 @@
+body{
+    background-color:black;
+    font-family:"Comic Sans MS";
+    color:white;
+}
+.headerNavBar{
+    float:right;
+    margin-top:3%;
+    margin-right:12%;
+}
+.navItems{
+    color:white;
+    text-decoration:none;
+    padding:20px;
+}
+.navItems:hover{
+    color:red;
+}
+.navItems:active{
+    color:red;
+}
+#home{
+    color:red;
+}
+#logoimg{
+    margin-left:5%;
+    margin-bottom:5%;
+}
+#text{
+    font-size:400%;
+    text-align:center;
+}
+.redbg{
+    background-color:red;
+    border:3px solid white;
+    width:15%;
+    height:15%;
+    margin:2%;
+    padding:3px;
+}
+.whitebg{
+    background-color:white;
+    border:3px solid red;
+    width:15%;
+    height:15%;
+    margin:2%;
+    padding:3px;
+    color:red;
+}
+
+
+

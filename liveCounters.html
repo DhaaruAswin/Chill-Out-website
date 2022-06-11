@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chill Out Restaurant</title>
+        <link rel="stylesheet" href="style.css"/>
+        <style>
+             body{
+                text-align:center;
+            }
+            #liveCounters{
+                color:red;
+            }
+            #headerMainDiv{
+                background-image:url("images/chef3.jpg");
+                height: 400px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+            td .lcvimg{
+                border-radius: 50%;
+                border:3px solid white;
+                transition-property:all;
+                transition-duration:0.5s;
+            }
+            td:hover .lcvimg{
+                border:15px solid white;
+            }
+            td .lcnvimg{
+                border-radius: 50%;
+                border:3px solid red;
+                transition-property:all;
+                transition-duration:0.5s;
+            }
+            td:hover .lcnvimg{
+                border:15px solid red;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <div id="headerMainDiv">
+                <img id="logoimg" src="images/Clogo.png" width=100 height=100/>
+                <nav class="headerNavBar">
+                    <a href="index.html" class="navItems">HOME</a>
+                    <a href="menu.html" class="navItems">MENU</a>
+                    <a href="gallery.html" class="navItems">GALLERY</a>
+                    <a href="liveCounters.html" class="navItems" id="liveCounters">LIVE COUNTERS</a>
+                    <a href="franchise.html" class="navItems">FRANCHISE</a>
+                    <a href="bookTable.html" class="navItems">BOOK A TABLE</a>
+                </nav>
+                <p id="text" style="color:black;position:relative;bottom:25%">Hot and Live</p>  
+            </div>
+        </header>
+        <main>
+            <section>
+                <p id="text">Live Counters - Hot from the Grill</p>
+                <p>Live counters are a Chill Out speciality, which allow you to try mouth-watering 
+                    global dishes the Indian way, made exactly to your personal taste! You can head over
+                    to any of our live counters, choose your ingredients, and our trained chefs will cook
+                 it and deliver it at your table for you to enjoy! Love pizza, but don’t like tomatoes? 
+                 Love fries with extra, extra, extra cheese on top? Love nachos, with olives, but not 
+                 pickles? You decide what goes into your dish and it will be made exactly how you would 
+                 like it.</p><br/>
+                 <p style="color:red">*Live Counters are subject to availability. 
+                    Please check with the restaurant on what’s available for the day</p>
+            </section>
+            <section>
+                <div style="border:2px solid white">
+                    <div class="whitebg">
+                        <span style="padding:20%">Veg Specials</span>
+                    </div> 
+                    <span >Hover over images</span>                 
+                    <div>
+                        <table style="border-spacing: 40px; margin-left:120px;">
+                            <tr>
+                                <td><img class="lcvimg" width=200px height=200px src="images/lcv2.png"/></td>
+                                <td><img class="lcvimg" width=200px height=200px src="images/mainCourse.png"/></td>
+                                <td><img class="lcvimg" width=200px height=200px src="images/lcv3.jpg"/></td>
+                                <td><img class="lcvimg" width=200px height=200px src="images/vs.png"/></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div><br/>
+                <div style="border:2px solid white">
+                    <div class="redbg">
+                        <span style="padding:15%" >Non-Veg Specials</span>
+                    </div>
+                    <span>Hover over images</span>  
+                    <div>
+                        <table style="border-spacing: 40px; margin-left:120px;">
+                            <tr>
+                                <td><img class="lcnvimg" width=200px height=200px src="images/nvmc.png"/></td>
+                                <td><img class="lcnvimg" width=200px height=200px src="images/nvs2.jpg"/></td>
+                                <td><img class="lcnvimg" width=200px height=200px src="images/lcnv3.jpg"/></td>
+                                <td><img class="lcnvimg" width=200px height=200px src="images/lcnv4.jpg"/></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div style="background-color:red">
+               <span style="font-size:250%">For reservations, call</span><br/>
+               <span style="font-size:250%">+91 84444 49999</span>
+            </div>
+        </footer>
+    </body>
+</html>
